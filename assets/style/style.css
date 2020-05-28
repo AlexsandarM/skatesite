@@ -7,7 +7,7 @@ body {
 /* navigation section */
 
 .navbar {
-  max-height: 60px;
+  min-height: 60px;
   align-items: center;
 }
 
