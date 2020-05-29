@@ -23,9 +23,9 @@ body {
   background: none;
 }
 
-/* Middle content section */
+/* Middle content content */
 
-.middle-section {
+.middle-content {
   background-color: #ccc;
   padding: 2rem;
 }
@@ -41,7 +41,7 @@ button.coolstuffbtn {
   margin: auto;
 }
 
-/* Model style */
+/* Cool Stuff Model style */
 
 h5.modal-title {
   margin: 0 auto;
@@ -49,4 +49,26 @@ h5.modal-title {
 
 .modelFormWrap {
   padding: 2rem;
+}
+
+/* Bottom Content  */
+
+.bottom-content {
+  padding: 2rem;
+}
+
+.img-center {
+  display: block;
+  margin: auto;
+  padding: 0.5rem 0 ;
+}
+
+/* Images Model style */
+
+.btn-center {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 54%;
 }
