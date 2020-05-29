@@ -60,7 +60,7 @@ h5.modal-title {
 .img-center {
   display: block;
   margin: auto;
-  padding: 0.5rem 0 ;
+  padding: 0.5rem 0;
 }
 
 /* Images Model style */
@@ -71,4 +71,21 @@ h5.modal-title {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 54%;
+}
+
+
+/* Footer styles  */
+
+.footer {
+  padding: 2rem;
+}
+
+.fab {
+  margin: 10px;
+  color: #eceeef;
+}
+
+.social-links {
+  margin: 0 auto;
+  text-align: center;
 }
