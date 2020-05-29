@@ -22,3 +22,21 @@ body {
   text-align: center;
   background: none;
 }
+
+/* Middle content section */
+
+.middle-section {
+  background-color: #ccc;
+  padding: 2rem;
+}
+
+.wrapbtn {
+  margin-top: 2rem;
+}
+
+button.coolstuffbtn {
+  background-color: red;
+  color: #eceeef;
+  display: block;
+  margin: auto;
+}
