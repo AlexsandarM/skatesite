@@ -112,20 +112,26 @@
         <div class="col-sm-12 col-md-2">
           <div class="img-wrap text-center">
             <img src="assets/img/prodigy.png" alt="skateboard img" class="img-fluid">
-          </div> 
+          </div>
         </div>
-    
+
         <div class="col-sm-12 col-md-10">
 
           <div class="row">
             <div class="col-sm-12 col-md-9">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas velit, quasi iusto maiores ad sunt minus labore commodi rerum, et eos quae illo error? Illum inventore suscipit mollitia cupiditate sunt sequi quidem ea soluta animi. Explicabo esse vitae unde consectetur?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas velit, quasi iusto maiores ad sunt minus
+                labore commodi rerum, et eos quae illo error? Illum inventore suscipit mollitia cupiditate sunt sequi
+                quidem ea soluta animi. Explicabo esse vitae unde consectetur?</p>
             </div>
-          </div> 
+          </div>
 
           <div class="row">
             <div class="col-md-9">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, dolore sit ad repellat quos inventore accusamus, veritatis culpa nisi soluta aperiam totam modi ratione beatae. Obcaecati doloremque fugiat ipsa? Quas, ea distinctio labore hic est nulla molestias nobis molestiae esse eos, deleniti repellendus dolores officia odio dolorum quasi corporis quod minus quibusdam dignissimos. Modi, tempore.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, dolore sit ad repellat quos
+                inventore accusamus, veritatis culpa nisi soluta aperiam totam modi ratione beatae. Obcaecati doloremque
+                fugiat ipsa? Quas, ea distinctio labore hic est nulla molestias nobis molestiae esse eos, deleniti
+                repellendus dolores officia odio dolorum quasi corporis quod minus quibusdam dignissimos. Modi, tempore.
+              </p>
             </div>
             <div class="col-md-3">
               <div class="img-wrap text-center">
@@ -133,19 +139,68 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-12">
           <div class="wrapbtn">
-            <button class="btn btn-lg coolstuffbtn">Get Cool Stuff!</button>
+            <button class="btn btn-lg coolstuffbtn" data-toggle="modal" data-target="#coolStuffModal">
+              Get Cool Stuff!
+            </button>
+            <!-- Cool Stuff Modal -->
+            <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog"
+              aria-labelledby="coolStuffModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="title-text"></div>
+                    <h5 class="modal-title pl-5" id="coolStuffModalLabel">Get Exclusive Content!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <img src="assets/img/KFS_modal.png" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="modelFormWrap">
+                            <form>
+                              <div class="form-group">
+                                <label for="formName">What's your name?</label>
+                                <input type="text" class="form-control" id="formName" placeholder="Name">
+                              </div>
+                              <div class="form-group">
+                                <label for="formEmail">Where should we sand your cool content?</label>
+                                <input type="text" class="form-control" id="formEmail" placeholder="Email" required>
+                              </div>
+                              <div class="modelFormbtn text-center">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block text-center">Send</button>
+                              </div>  
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- model body content -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </div> <!-- Get Cool Stuff Btn & Model -->
     </div>
 
-  </section>
+  </section> <!-- middle-section -->
 
 
 

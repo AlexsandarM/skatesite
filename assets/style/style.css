@@ -40,3 +40,13 @@ button.coolstuffbtn {
   display: block;
   margin: auto;
 }
+
+/* Model style */
+
+h5.modal-title {
+  margin: 0 auto;
+}
+
+.modelFormWrap {
+  padding: 2rem;
+}
